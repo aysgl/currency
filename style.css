@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  transition: 0.4s;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  font-size: 0.8rem;
+}
+.container .content {
+  width: 80%;
+  box-shadow: 0px 20px 30px #ddd;
+  padding: 2rem;
+  border-radius: 0.5rem;
+}
+.container .content input {
+  min-height: 40px;
+  padding: 0rem 1rem;
+  width: 60%;
+  border: 0;
+  outline: none;
+  border-radius: 0.25rem;
+}
+.container .content input::-webkit-outer-spin-button, .container .content input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.container .content input[type=number] {
+  -moz-appearance: textfield;
+}
+.container .content select {
+  width: 35%;
+  min-height: 40px;
+  padding: 0rem 1rem;
+  border: 0;
+  text-align: right;
+  outline: none;
+}
+.container .content .result, .container .content .amount {
+  border: 1px solid #ddd;
+  padding-right: 0.5rem;
+  width: 100%;
+  border-radius: 0.25rem;
+}
+.container .content .amount {
+  margin-bottom: 0.25rem;
+}
+.container .content .graphic {
+  margin-bottom: 1rem;
+  font-size: 4rem;
+  font-weight: 100;
+}/*# sourceMappingURL=style.css.map */
